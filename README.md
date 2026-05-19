@@ -2,7 +2,7 @@
 
 This repository contains an academic project completed as part of the course **Computational Statistics**.
 
-## Overview
+## 📖 Overview
 The project contains four main exercises that focus on the implementation and analysis of Monte Carlo simulation techniques for generating random variables from non-trivial probability distributions.
 
 The assignment includes custom implementations of:
@@ -13,7 +13,7 @@ The assignment includes custom implementations of:
 
 The emphasis is placed on understanding the underlying statistical methodology rather than relying exclusively on built-in R functions.
 
-## Exercises Included
+## 📃 Exercises Included
 
 ### 1. Gamma Distribution via Accept-Reject Sampling
 
@@ -72,7 +72,22 @@ The exercise also includes:
 ![ ](figures/normal_from_boxmuller.png)
 - Runtime benchmarking using the `microbenchmark` package
 
-## Running the Code
+### 5. Beta Distribution via Accept-Reject-Sampling
+
+Simulation from the $\text{Beta}$ distribution using the accept-reject algorithm with the $\mathcal{U}(0,1)$ distribution as the proposal.
+
+Main components:
+
+- Construction of method-of-moments estimators for the Beta distribution parameters
+- Generation of 10,000 random samples of size 20 from the $\text{Beta}(2,3)$ distribution
+- Empirical estimation of:
+  - bias
+  - variance
+  - root mean square error (RMSE)
+- Visualization of the simulated Beta distribution against the theoretical density
+![ ](figures/beta_from_unif.png)
+
+## ▶️ Running the Code
 
 Open the `MonteCarloSimulation.Rproj` file in RStudio and run the individual scripts separately.
 
@@ -81,7 +96,7 @@ Before running the `Normal_AcceptReject.R` script make sure you install the `mic
 install.packages("microbenchmark")
 ```
 
-## Author
+## 👨‍💻 Author
 **Marios Giannakopoulos**
 
 Department of Mathematics
