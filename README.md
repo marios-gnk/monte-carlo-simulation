@@ -1,9 +1,9 @@
 # Monte Carlo Simulation of Random Variables (R)
 
-This repository contains an academic assignment completed as part of the course **Computational Statistics**.
+This repository contains an academic project completed as part of the course **Computational Statistics**.
 
 ## Overview
-The assignment contains four main exercises that focus on the implementation and analysis of Monte Carlo simulation techniques for generating random variables from non-trivial probability distributions.
+The project contains four main exercises that focus on the implementation and analysis of Monte Carlo simulation techniques for generating random variables from non-trivial probability distributions.
 
 The assignment includes custom implementations of:
 
