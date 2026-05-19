@@ -3,9 +3,9 @@
 This repository contains an academic project completed as part of the course **Computational Statistics**.
 
 ## 📖 Overview
-The project contains four main exercises that focus on the implementation and analysis of Monte Carlo simulation techniques for generating random variables from non-trivial probability distributions.
+The project contains five main tasks that focus on the implementation and analysis of Monte Carlo simulation techniques for generating random variables from non-trivial probability distributions.
 
-The assignment includes custom implementations of:
+It includes custom implementations of:
 
 - Accept-Reject Sampling
 - Generalized Inverse Simulation
@@ -13,7 +13,7 @@ The assignment includes custom implementations of:
 
 The emphasis is placed on understanding the underlying statistical methodology rather than relying exclusively on built-in R functions.
 
-## 📃 Exercises Included
+## 📃 Tasks Included
 
 ### 1. Gamma Distribution via Accept-Reject Sampling
 
@@ -36,7 +36,7 @@ Simulation from the $\text{Geometric}\left\(\tfrac{1}{3}\right\) + 1$ distributi
 
 Main components:
 
-- Derivation and implemantation of the generalized inverse CDF
+- Derivation and implementation of the generalized inverse CDF
 - Simulation of 10,000 observations
 - Comparison against R's built-in `rgeom()` function.
 ![ ](figures/geometric_barplot.png)
