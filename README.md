@@ -13,7 +13,7 @@ It includes custom implementations of:
 
 The emphasis is placed on understanding the underlying statistical methodology rather than relying exclusively on built-in R functions.
 
-## 📃 Tasks Included
+## 📃 Contents
 
 ### 1. Gamma Distribution via Accept-Reject Sampling
 
