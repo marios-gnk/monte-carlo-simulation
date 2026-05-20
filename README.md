@@ -87,6 +87,11 @@ Main components:
 - Visualization of the simulated Beta distribution against the theoretical density
 ![ ](figures/beta_from_unif.png)
 
+## ⚙️ Tools and Technologies Used
+- R
+- RStudio
+- microbenchmark
+
 ## ▶️ Running the Code
 
 Open the `MonteCarloSimulation.Rproj` file in RStudio and run the individual scripts separately.
