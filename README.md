@@ -3,7 +3,7 @@
 This repository contains an academic project completed as part of the course **Computational Statistics**.
 
 ## 📖 Overview
-The project consists of five main tasks that focus on the implementation and analysis of Monte Carlo simulation techniques for generating random variables from complex probability distributions.
+The project consists of five main computational experiments that focus on the implementation and analysis of Monte Carlo simulation techniques for generating random variables from complex probability distributions.
 
 It includes custom implementations of:
 
@@ -63,7 +63,7 @@ Simulation from the $\mathcal{N}(5, 4)$ distribution using two different proposa
 
 ![ ](figures/normal_from_logistic.png)
 
-The exercise also includes:
+The experiment also includes:
 
 - Comparison of proposal efficiency
 - Custom implementation of the Box-Muller algorithm
