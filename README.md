@@ -19,8 +19,6 @@ The emphasis is placed on understanding the underlying statistical methodology r
 
 Implementation of the accept-reject algorithm for simulating observations from the $\text{Gamma}(2.5, 3)$ distribution using the $\text{Exp}(1)$ distribution as the proposal.
 
-![ ](figures/gamma_vs_exp.png)
-
 Main components:
 
 - Construction of an unnormalized Gamma density
