@@ -68,7 +68,7 @@ The experiment also includes:
 - Comparison of proposal efficiency
 - Custom implementation of the Box-Muller algorithm
 ![ ](figures/normal_from_boxmuller.png)
-- Runtime benchmarking using the `microbenchmark` package, to compare the three implementations
+- Runtime benchmarking using the `microbenchmark` package to compare the three implementations
 
 ### 5. Beta Distribution via Accept-Reject Sampling
 
