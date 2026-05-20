@@ -50,7 +50,7 @@ Main components:
 - Histogram and theoritical density visualization
 ![ ](figures/laplace_hist.png)
 
-### 4. Normal Distribution via Accept-Reject-Sampling 
+### 4. Normal Distribution via Accept-Reject Sampling 
 
 Simulation from the $\mathcal{N}(5, 4)$ distribution using two different proposal distributions:
 
@@ -70,7 +70,7 @@ The exercise also includes:
 ![ ](figures/normal_from_boxmuller.png)
 - Runtime benchmarking using the `microbenchmark` package
 
-### 5. Beta Distribution via Accept-Reject-Sampling
+### 5. Beta Distribution via Accept-Reject Sampling
 
 Simulation from the $\text{Beta}$ distribution using the accept-reject algorithm with the $\mathcal{U}(0,1)$ distribution as the proposal.
 
