@@ -17,7 +17,7 @@ The emphasis is placed on understanding the underlying statistical methodology r
 
 ### 1. Gamma Distribution via Accept-Reject Sampling
 
-Implementation of the accept-reject algorithm for simulating observations from the $\text{Gamma}(2.5, 3)$ distribution using the $\text{Exp}(1)$ distribution as the proposal.
+Implementation of the accept-reject algorithm for simulating observations from the $\text{Gamma}(2.5, \lambda = 3)$ distribution (where $\lambda$ is a rate parameter), using the $\text{Exp}(1)$ distribution as the proposal.
 
 Main components:
 
