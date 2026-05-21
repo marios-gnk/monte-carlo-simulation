@@ -2,12 +2,9 @@
 # Gamma Distribution - Accept-Reject Algorithm                              ----
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# In this exercise, we would like to simulate observations from the 
+# In this experiment, we would like to simulate observations from the 
 # Gamma(2.5, 3) distribution (3 is a rate parameter), using the accept-reject
 # algorithm.
-
-# The support of the Gamma distribution family is the set of non-negative real 
-# numbers.
 
 # First of all, we create a function called dgam() that takes the following 
 # three arguments:
