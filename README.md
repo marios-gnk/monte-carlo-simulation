@@ -90,6 +90,33 @@ Main components:
 - RStudio
 - microbenchmark
 
+## 📁 Repository Structure
+
+```text
+monte-carlo-simulation/
+│
+├── Gamma_AcceptReject.R            # Gamma simulation via accept-reject sampling
+├── Geometric_InverseCDF.R          # Geometric simulation via generalized inverse CDF
+├── Laplace_InverseCDF.R            # Laplace simulation via inverse CDF
+├── Normal_AcceptReject.R           # Normal simulation and Box-Muller comparison
+├── Beta_AcceptReject.R             # Beta simulation via accept-reject sampling
+│
+├── figures/
+│   ├── gamma_hist.png              # Gamma simulation histogram
+│   ├── gamma_vs_exp.png            # Gamma and Exponential density comparison
+│   ├── geometric_barplot.png       # Geometric distribution comparison 
+│   ├── laplace_hist.png            # Laplace simulation histogram
+│   ├── normal_from_boxmuller.png   # Normal simulation via Box-Muller
+│   ├── normal_from_logistic.png    # Logistic proposal distribution results
+│   ├── normal_from_t.png           # Student's t proposal distribution results
+│   └── beta_from_unif.png          # Beta simulation histogram
+│
+├── .gitignore
+├── LICENSE
+├── README.md                       # Project documentation
+└── MonteCarloSimulation.Rproj      # RStudio project file
+```
+
 ## ▶️ Running the Code
 
 Open the `MonteCarloSimulation.Rproj` file in RStudio and run the individual scripts separately.
