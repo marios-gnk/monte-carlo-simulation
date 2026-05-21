@@ -2,7 +2,7 @@
 # Laplace Distribution - Generalized Inverse Simulation                     ----
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# In this exercise, we are going to simulate from the Laplace(-5, 2)
+# In this experiment, we are going to simulate from the Laplace(-5, 2)
 # distribution, where the associated CDF is:
 # F(x) = 1 / 2 exp{(x - m) / b},       if x < m, and
 # F(x) = 1 - 1 / 2 exp{- (x - m) / b}, otherwise.
