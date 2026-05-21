@@ -2,7 +2,7 @@
 # Geometric Distribution - Generalized Inverse Simulation                   ----
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# In this exercise, we are going to simulate from the Geom(1/3) + 1
+# In this experiment, we are going to simulate from the Geom(1/3) + 1
 # distribution.
 
 # We create a vector called prob, holding the values F(x) for x = 1, ..., 49.
