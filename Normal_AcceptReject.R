@@ -3,7 +3,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 library(microbenchmark)
 
-# In this exercise, we would like to simulate observations from the 
+# In this experiment, we would like to simulate observations from the 
 # N(5, 4) distribution, using the accept-reject algorithm.
 
 # The support of the Normal distribution family is the set of real numbers.
