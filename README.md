@@ -32,7 +32,7 @@ Main components:
 
 ### 2. Geometric Distribution via Generalized Inverse Simulation 
 
-Simulation from the $\text{Geometric}\left\(\tfrac{1}{3}\right\) + 1$ distribution using the generalized inverse CDF method.
+Simulation from the $\text{Geometric}\left(\frac{1}{3}\right) + 1$ distribution using the generalized inverse CDF method.
 
 Main components:
 
@@ -49,7 +49,7 @@ Main components:
 
 - Piecewise derivation of the inverse CDF 
 - Custom density construction
-- Histogram and theoritical density visualization
+- Histogram and theoretical density visualization
 ![ ](figures/laplace_hist.png)
 
 ### 4. Normal Distribution via Accept-Reject Sampling 
@@ -57,7 +57,7 @@ Main components:
 Simulation from the $\mathcal{N}(5, 4)$ distribution using two different proposal distributions:
 
 
-- Student's $\mathcal{t}(1)$
+- Student's $t(1)$
 
 ![ ](figures/normal_from_t.png)
 
