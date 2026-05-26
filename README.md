@@ -13,6 +13,8 @@ It includes custom implementations of:
 
 The emphasis is placed on understanding the underlying statistical methodology rather than relying exclusively on built-in R functions.
 
+---
+
 ## 📃 Contents
 
 ### 1. Gamma Distribution via Accept-Reject Sampling
@@ -85,10 +87,14 @@ Main components:
 - Visualization of the simulated Beta distribution against the theoretical density
 ![ ](figures/beta_from_unif.png)
 
+---
+
 ## ⚙️ Tools and Technologies Used
 - R
 - RStudio
 - microbenchmark
+
+---
 
 ## 📁 Repository Structure
 
@@ -117,6 +123,8 @@ monte-carlo-simulation/
 └── MonteCarloSimulation.Rproj      # RStudio project file
 ```
 
+---
+
 ## ▶️ Running the Code
 
 Open the `MonteCarloSimulation.Rproj` file in RStudio and run the individual scripts separately.
@@ -125,6 +133,8 @@ Before running the `Normal_AcceptReject.R` script make sure you install the `mic
 ```r
 install.packages("microbenchmark")
 ```
+
+---
 
 ## 👨‍💻 Author
 **Marios Giannakopoulos**
