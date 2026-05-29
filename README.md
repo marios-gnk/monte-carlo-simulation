@@ -104,7 +104,7 @@ monte-carlo-simulation/
 ├── Gamma_AcceptReject.R            # Gamma simulation via accept-reject sampling
 ├── Geometric_InverseCDF.R          # Geometric simulation via generalized inverse CDF
 ├── Laplace_InverseCDF.R            # Laplace simulation via inverse CDF
-├── Normal_AcceptReject.R           # Normal simulation and Box-Muller comparison
+├── Normal_AcceptReject.R           # Normal simulation via accept-reject sampling and Box-Muller 
 ├── Beta_AcceptReject.R             # Beta simulation via accept-reject sampling
 │
 ├── figures/
