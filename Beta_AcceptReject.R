@@ -32,15 +32,15 @@ beta_accept_reject <- function(size, a, b) {
   sam
 }
 m <- 1e4 ; n <- 20 ; a <- 2; b <- 3
-obs <- acc.rej.beta(m * n, a, b)
+obs <- beta_accept_reject(m * n, a, b)
 hist(obs, freq = F, xlab = "",
      main = "Beta(2,3) from Accept-Reject Sampling")
 curve(dbeta(x, 2, 3), from = 0, to = 1, col = "blue", add = T)
 samples <- matrix(obs, nrow = m, ncol = n)
 
 # Calculation of the moment estimators for each one of the m samples.
-ahats <- apply(samples, 1, function(x) ebeta(x)$ahat)
-bhats <- apply(samples, 1, function(x) ebeta(x)$bhat)
+ahats <- apply(samples, 1, function(x) beta_moment_estimators(x)$ahat)
+bhats <- apply(samples, 1, function(x) beta_moment_estimators(x)$bhat)
 
 # We now have a sample of the moment estimators. Using this sample, we estimate
 # the bias, variance, and root mean square error (RMSE) of the two
