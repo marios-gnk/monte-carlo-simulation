@@ -28,7 +28,8 @@ Main components:
 - Simulation of 10,000 observations
 - Empirical acceptance probability estimation
 - Histogram and theoretical density comparison
-![ ](figures/gamma_hist.png)
+
+<img src="figures/gamma_hist.png" width="500">
 
 ### 2. Geometric Distribution via Generalized Inverse Simulation 
 
@@ -39,7 +40,8 @@ Main components:
 - Derivation and implementation of the generalized inverse CDF
 - Simulation of 10,000 observations
 - Comparison against R's built-in `rgeom()` function.
-![ ](figures/geometric_barplot.png)
+
+<img src="figures/geometric_barplot.png" width="500">
 
 ### 3. Laplace Distribution via Inverse Transform Sampling
 
@@ -50,7 +52,8 @@ Main components:
 - Piecewise derivation of the inverse CDF 
 - Custom density construction
 - Histogram and theoretical density visualization
-![ ](figures/laplace_hist.png)
+
+<img src="figures/laplace_hist.png" width="500">
 
 ### 4. Normal Distribution via Accept-Reject Sampling 
 
@@ -59,17 +62,19 @@ Simulation from the $\mathcal{N}(5, 4)$ distribution using two different proposa
 
 - Student's $t(1)$
 
-![ ](figures/normal_from_t.png)
+<img src="figures/normal_from_t.png" width="500">
 
 - $\text{Logistic}(0,1)$
 
-![ ](figures/normal_from_logistic.png)
+<img src="figures/normal_from_logistic.png" width="500">
 
 The experiment also includes:
 
 - Comparison of proposal efficiency
 - Custom implementation of the Box-Muller algorithm
-![ ](figures/normal_from_boxmuller.png)
+
+<img src="figures/normal_from_boxmuller.png" width="500">
+
 - Runtime benchmarking using the `microbenchmark` package to compare the three implementations
 
 ### 5. Beta Distribution via Accept-Reject Sampling
@@ -85,7 +90,8 @@ Main components:
   - variance
   - root mean square error (RMSE)
 - Visualization of the simulated Beta distribution against the theoretical density
-![ ](figures/beta_from_unif.png)
+
+<img src="figures/beta_from_unif.png" width="500">
 
 ---
 
